@@ -25,3 +25,8 @@ ro.mot.eri.losalert.delay=100
 
 # Pre-Rendering
 ro.vendor.perf.scroll_opt=true
+
+# IMS
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
