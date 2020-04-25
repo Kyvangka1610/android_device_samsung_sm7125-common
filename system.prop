@@ -3,3 +3,6 @@ ro.vendor.qti.va_aosp.support=1
 
 # Netflix
 ro.netflix.bsp_rev=Q6250-19132-1
+
+# Dex2oat
+dalvik.vm.dex2oat64.enabled=true
