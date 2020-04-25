@@ -6,3 +6,6 @@ ro.netflix.bsp_rev=Q6250-19132-1
 
 # LMK
 ro.config.low_ram=false
+
+# Dex2oat
+dalvik.vm.dex2oat64.enabled=true
