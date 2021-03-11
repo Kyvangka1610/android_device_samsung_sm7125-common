@@ -179,6 +179,9 @@ renderthread.skia.reduceopstasksplitting=true
 # Gatekeeper
 ro.hardware.gatekeeper=mdfpp
 
+# GFX
+ro.config.avoid_gfx_accel=true
+
 # Keystore
 ro.hardware.keystore=mdfpp
 ro.security.keystore.keytype=sakv2,gak
