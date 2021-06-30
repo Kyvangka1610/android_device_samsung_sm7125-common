@@ -4,6 +4,12 @@ ro.vendor.qti.va_aosp.support=1
 # Netflix
 ro.netflix.bsp_rev=Q6250-19132-1
 
+# Increase Scrool Smoothness
+ro.vendor.qti.cgroup_follow.enable=true 
+persist.vendor.qti.inputopts.enable=true 
+persist.vendor.qti.inputopts.movetouchslop=0.6 
+ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+
 # Ram
 ro.config.fha_enable=true
 ro.sys.fw.bg_apps_limit=32
