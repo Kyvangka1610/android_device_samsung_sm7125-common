@@ -6,3 +6,6 @@ ro.netflix.bsp_rev=Q6250-19132-1
 
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
+
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
