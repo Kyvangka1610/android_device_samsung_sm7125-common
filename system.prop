@@ -25,3 +25,6 @@ ro.mot.eri.losalert.delay=100
 
 # Pre-Rendering
 ro.vendor.perf.scroll_opt=true
+
+# VSync
+debug.cpurend.vsync=false
