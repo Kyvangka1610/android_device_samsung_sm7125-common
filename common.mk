@@ -297,6 +297,8 @@ PRODUCT_COPY_FILES += \
 
 # OMX
 PRODUCT_PACKAGES += \
+    android.hardware.media.omx@1.0-impl \
+    android.hardware.media.omx@1.0-service \
     libmm-omxcore \
     libOmxAacEnc \
     libOmxAmrEnc \
@@ -307,7 +309,8 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libOmxVidcCommon \
-    libstagefrighthw
+    libstagefrighthw \
+    libstagefright_omx.vendor
 
 # Perf
 PRODUCT_PACKAGES += \
