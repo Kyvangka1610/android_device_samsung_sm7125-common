@@ -154,7 +154,6 @@ vendor.display.idle_time_inactive=0
 vendor.display.disable_dynamic_fps=1
 vendor.display.disable_hw_recovery_dump=1
 vendor.display.dataspace_saturation_matrix=1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
-debug.sf.enable_gl_backpressure=1
 ro.surface_flinger.protected_contents=true
 ro.surface_flinger.has_wide_color_display=true
 ro.surface_flinger.has_HDR_display=true
