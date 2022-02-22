@@ -129,9 +129,6 @@ debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
 
 # Display
-debug.sf.hw=0
-debug.egl.hw=0
-debug.mdpcomp.logs=0
 vendor.gralloc.disable_ubwc=0
 vendor.display.disable_scaler=0
 vendor.display.disable_inline_rotator=1
