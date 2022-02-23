@@ -53,6 +53,9 @@ on init
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
 
+# Disable UFS powersaving
+    write /sys/devices/platform/soc/${ro.boot.bootdevice}/clkgate_enable 0
+
 # foreground-boost
     mkdir /dev/stune/foreground-boost
     chown system system /dev/stune/foreground-boost
