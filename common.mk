@@ -164,6 +164,7 @@ PRODUCT_PACKAGES += \
     gralloc.atoll \
     memtrack.atoll \
     libqdMetaData \
+    libwfdaac_proprietary \
     libdisplayconfig.qti \
     vendor.qti.hardware.display.mapper@1.1.vendor \
     vendor.qti.hardware.display.mapper@2.0.vendor \
