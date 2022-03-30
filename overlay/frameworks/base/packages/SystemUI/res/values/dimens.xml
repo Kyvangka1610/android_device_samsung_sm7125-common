@@ -28,5 +28,9 @@
     <!-- Margin on the left side of the carrier text on Keyguard -->
     <dimen name="keyguard_carrier_text_margin">30px</dimen>
 
+    <!-- StatusBar burn-in protection -->
+    <dimen name="horizontal_max_shift">2.0dp</dimen>
+    <dimen name="vertical_max_shift">1.0dp</dimen>
+
 </resources>
 
