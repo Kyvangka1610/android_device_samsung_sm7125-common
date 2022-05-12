@@ -38,3 +38,6 @@ ro.launcher.blur.appLaunch=0
 
 # Incremental FS
 ro.incremental.enable=yes
+
+# Disable Skia tracing by default
+debug.hwui.skia_atrace_enabled=false
