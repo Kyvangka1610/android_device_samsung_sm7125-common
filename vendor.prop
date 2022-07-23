@@ -186,4 +186,5 @@ vendor.usb.diag.func.name=diag
 vendor.usb.use_ffs_mtp=0
 
 # Wifi
+ro.vendor.net.enable_dual_wifi=1
 wifi.aware.interface=wifi-aware0
