@@ -43,3 +43,6 @@ ro.incremental.enable=yes
 
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
+
+# LMK
+ro.config.low_ram=false
