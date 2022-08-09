@@ -474,6 +474,10 @@
         <fqname>@2.0::ISehBridge/slot1</fqname>
         <fqname>@2.0::ISehBridge/slot2</fqname>
     </hal>
+     <hal format="aidl">
+        <name>android.hardware.power</name>
+        <fqname>IPower/default</fqname>
+    </hal>
     <hal format="hidl">
         <name>vendor.samsung.hardware.radio.channel</name>
         <transport>hwbinder</transport>
