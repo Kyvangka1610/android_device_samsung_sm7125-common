@@ -33,4 +33,10 @@
 
     <!-- Threshold in micro watts above which a charger is rated as "fast"; 2.16A @ 5V  -->
     <integer name="config_chargingFastThreshold">10800000</integer>
+
+    <!-- The CPU temperature sensor path, defaults to empty -->
+    <string name="config_cpuTempSensor" translatable="false">/sys/class/thermal/thermal_zone0/temp</string>
+
+    <!-- The CPU temperature divider, if needed -->
+    <integer name="config_cpuTempDivider" translatable="false">1000</integer>
 </resources>
