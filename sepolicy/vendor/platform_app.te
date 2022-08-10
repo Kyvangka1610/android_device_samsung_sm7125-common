@@ -1,4 +1,2 @@
 # FPS info
 allow platform_app sysfs_graphics:file r_file_perms; 
-
-get_prop(platform_app, theme_prop)
