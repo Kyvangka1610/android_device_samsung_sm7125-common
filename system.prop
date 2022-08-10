@@ -6,3 +6,6 @@ ro.netflix.bsp_rev=Q6250-19132-1
 
 # Bootleggers
 ro.bootleggers.maintainer=kyvangka1610
+
+# Pre-Rendering
+ro.vendor.perf.scroll_opt=true
