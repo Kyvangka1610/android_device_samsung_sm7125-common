@@ -117,6 +117,7 @@ dalvik.vm.lockprof.threshold=500
 debug.sf.hw=0
 debug.egl.hw=0
 debug.mdpcomp.logs=0
+debug.hwui.use_buffer_age=false
 vendor.gralloc.disable_ubwc=0
 vendor.display.disable_scaler=0
 vendor.display.disable_inline_rotator=1
