@@ -477,3 +477,6 @@ TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
 
 # Inherit proprietary blobs
 $(call inherit-product, vendor/samsung/sm7125-common/sm7125-common-vendor.mk)
+
+#GAPPS
+$(call inherit-product, vendor/gapps/common/common-vendor.mk)
