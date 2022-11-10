@@ -38,3 +38,6 @@ ro.launcher.blur.appLaunch=0
 
 # Iorap
 persist.device_config.runtime_native_boot.iorap_readahead_enable=true
+
+# Incremental FS
+ro.incremental.enable=yes
