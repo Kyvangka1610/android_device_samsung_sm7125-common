@@ -16,7 +16,9 @@
 
 COMMON_PATH := device/samsung/sm7125-common
 
-DEVICE_PACKAGE_OVERLAYS += $(COMMON_PATH)/overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(COMMON_PATH)/overlay \
+    $(COMMON_PATH)/overlay-xdroid
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
