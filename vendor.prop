@@ -162,12 +162,6 @@ ro.hardware.vulkan=adreno
 ro.hardware.egl=adreno
 ro.opengles.version=196610
 
-# IORap
-ro.iorapd.enable=true
-iorapd.perfetto.enable=true
-iorapd.readahead.enable=true
-persist.device_config.runtime_native_boot.iorap_readahead_enable=true
-
 # Gatekeeper
 ro.hardware.gatekeeper=mdfpp
 
