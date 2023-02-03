@@ -854,7 +854,6 @@ vendor/etc/perf/commonresourceconfigs.xml
 vendor/etc/perf/commonsysnodesconfigs.xml
 vendor/etc/perf/perfboostsconfig.xml
 vendor/etc/perf/targetconfig.xml
-vendor/etc/msm_irqbalance.conf
 
 # Peripheral
 vendor/bin/pm-proxy
