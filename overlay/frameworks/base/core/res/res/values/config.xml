@@ -1402,4 +1402,8 @@
         <item>500</item>
         <item>600</item>
     </integer-array>
+
+    <!-- Boost Framework -->
+    <bool name="config_supportsBoostFramework">true</bool>
+    
 </resources>
