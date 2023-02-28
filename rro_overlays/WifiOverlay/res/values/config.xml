@@ -72,4 +72,7 @@
 
     <!-- Enable 802.11ac for Wifi hotspot (SAP) -->
     <bool name="config_wifi_softap_ieee80211ac_supported">true</bool>
+
+    <!-- Enable WPA2 to WPA3 auto-upgrade -->
+    <bool translatable="false" name="config_wifiSaeUpgradeEnabled">false</bool>
 </resources>
