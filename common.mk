@@ -164,6 +164,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapper@2.0.vendor \
     vendor.qti.hardware.display.mapper@3.0.vendor \
     vendor.qti.hardware.display.mapper@4.0.vendor \
+    android.hardware.graphics.allocator@3.0.vendor \
     vendor.display.config@2.0.vendor \
     AdvancedDisplay
 
