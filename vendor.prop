@@ -113,6 +113,9 @@ dalvik.vm.heapminfree=512k
 dalvik.vm.heapmaxfree=8m
 dalvik.vm.lockprof.threshold=500
 
+# FS-verity
+ro.apk_verity.mode=2
+
 # Display
 debug.sf.hw=0
 debug.egl.hw=0
