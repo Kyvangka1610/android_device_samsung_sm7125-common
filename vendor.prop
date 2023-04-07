@@ -200,6 +200,7 @@ ro.telephony.default_cdma_sub=0
 ro.telephony.default_network=9,9
 ro.radio.noril=no
 ro.vendor.epdg.support=true
+persist.sys.radio.force_lte_ca=true
 
 # USB
 vendor.usb.diag.func.name=diag
