@@ -1372,6 +1372,9 @@
     <!-- Default radius of the software rounded corners. -->
     <dimen name="rounded_corner_radius">20.0dip</dimen>
 
+    <!-- Whether to show min/max refresh rate in display settings -->
+    <bool name="config_show_refresh_rate_controls">true</bool>
+    
     <!-- List supported color modes. -->
     <integer-array name="config_availableColorModes">
         <item>0</item> <!-- COLOR_MODE_NATURAL -->
