@@ -265,6 +265,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
 
+# MultiGen LRU
+PRODUCT_SYSTEM_PROPERTIES += \
+    persist.device_config.mglru_native.lru_gen_config=all
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service.samsung \
@@ -450,6 +454,10 @@ PRODUCT_COPY_FILES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libnl
+
+# USAP Pool
+PRODUCT_SYSTEM_PROPERTIES += \
+    persist.device_config.runtime_native.usap_pool_enabled=true
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
