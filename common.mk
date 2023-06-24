@@ -466,6 +466,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/pixel \
     hardware/samsung \
     hardware/samsung/aidl/power-libperfmgr
+    
+# Storage
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.fuse.passthrough.enable=true
 
 # Prop files
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
