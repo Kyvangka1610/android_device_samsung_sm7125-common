@@ -198,5 +198,13 @@ vendor.usb.use_gadget_hal=0
 ro.vendor.vibrator_hal.click_duration=80
 ro.vendor.vibrator_hal.tick_duration=40
 
+# VoLTE / VT / WFC
+# These properties will force availability of the VoLTE,
+# VideoTelephony and Wi-Fi Call, without needing carrier
+# services provisioning sites hooked up: simplifies it.
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+
 # Wifi
 wifi.aware.interface=wifi-aware0
