@@ -4,3 +4,6 @@ allow system_server proc_last_kmsg:file r_file_perms;
 
 # /sys/devices/platform/soc/soc:qcom,msm-ext-disp/extcon/extcon0/state
 allow system_server sysfs_graphics:file { read getattr open };
+
+# Smart charging
+allow system_server sysfs_battery_supply:file { getattr open read write };
