@@ -30,14 +30,6 @@
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_supportSmartPixels">true</bool>
 
-    <!-- Smart charging -->
-    <bool name="config_smartChargingAvailable">true</bool>
-    <integer name="config_smartChargingBatteryLevel">80</integer>
-    <integer name="config_smartChargingBatteryResumeLevel">60</integer>
-    <string name="config_smartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
-    <string name="config_smartChargingSuspendValue" translatable="false">0</string>
-    <string name="config_smartChargingResumeValue" translatable="false">1</string>
-
     <!-- Pocket Lock -->
     <bool name="config_pocketModeSupported">true</bool>
 
@@ -52,9 +44,6 @@
         <item>org.lineageos.aperture</item>
         <item>org.lineageos.aperture.dev</item>
     </string-array>
-
-    <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
-    <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/power_supply/bms/fastcharge_mode</string>
 
     <!-- Expected value from fast charging status file  -->
     <string name="config_oemFastChargerStatusValue" translatable="false">1</string>

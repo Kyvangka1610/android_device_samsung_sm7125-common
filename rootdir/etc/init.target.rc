@@ -456,10 +456,4 @@ on property:vendor.dcvs.prop=1
 
 # Enable suspend to RAM
     write /sys/power/mem_sleep "deep"
-
-# Smart Charging
-on boot 
-chown system system /sys/class/power_supply/sm5714-charger/charging_enabled
-chmod 0666 /sys/class/power_supply/sm5714-charger/charging_enabled
-chown system system /sys/class/power_supply/battery/input_suspend
-chmod 0666 /sys/class/power_supply/battery/input_suspend    
+  

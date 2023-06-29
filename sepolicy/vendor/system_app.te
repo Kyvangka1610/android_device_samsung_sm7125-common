@@ -14,14 +14,3 @@ allow system_app sysfs_mdnie_writable:file { open write getattr };
 # UDFPS
 set_prop(system_app, vendor_fingerprint_prop)
 get_prop(system_app, vendor_fingerprint_prop)
-
-# Battery Health
-allow system_app vendor_sysfs_battery_supply:dir { search };
-allow system_app vendor_sysfs_battery_supply:file { read };
-allow system_app vendor_sysfs_battery_supply:file { open };
-allow system_app vendor_sysfs_battery_supply:file { getattr };
-
-allow system_app sysfs_battery_supply:dir { search };
-allow system_app sysfs_battery_supply:file { read open getattr };
-
-r_dir_file(system_app, vendor_sysfs_battery_supply)
