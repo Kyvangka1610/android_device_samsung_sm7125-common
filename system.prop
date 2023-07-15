@@ -35,3 +35,6 @@ ro.launcher.blur.appLaunch=0
 
 # Incremental FS
 ro.incremental.enable=yes
+
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
