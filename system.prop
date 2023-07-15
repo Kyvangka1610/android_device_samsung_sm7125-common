@@ -41,3 +41,6 @@ ro.incremental.enable=yes
 
 # Disable Skia tracing by default
 debug.hwui.skia_atrace_enabled=false
+
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
