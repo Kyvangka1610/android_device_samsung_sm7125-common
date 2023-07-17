@@ -276,8 +276,7 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/media/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml
 
 PRODUCT_PACKAGES += \
-    android.hardware.media.c2@1.0.vendor \
-    android.hardware.media.c2@1.2.vendor
+    android.hardware.media.c2@1.0.vendor
 
 # Enable Codec 2.0
 PRODUCT_PACKAGES += \
