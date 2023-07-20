@@ -120,6 +120,13 @@ vendor/lib64/soundfx/libswspatializer.so
 # Audio Firmware
 vendor/firmware/dax_param.bin
 
+# Audio FX - OzoAudio
+system_ext/lib/libav_ozodecoder.so:vendor/lib/libav_ozodecoder.so
+system_ext/lib/libav_ozoencoder.so:vendor/lib/libav_ozoencoder.so
+system_ext/lib/libozoaudio.so:vendor/lib/libozoaudio.so
+system_ext/lib/libozowidening.so:vendor/lib/libozowidening.so
+system_ext/lib/soundfx/libozoprocessing.so:vendor/lib/soundfx/libozoprocessing.so
+
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/lib/hw/audio.bluetooth_qti.default.so
