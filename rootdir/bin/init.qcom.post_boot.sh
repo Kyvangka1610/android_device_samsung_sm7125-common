@@ -4172,6 +4172,9 @@ case "$target" in
 
     # Volume down key(connect to PMIC RESIN) wakeup enable/disable
     echo 0 > /sys/power/volkey_wakeup    
+
+    # Enable PowerHAL hint processing
+    setprop vendor.powerhal.init 1
   ;;
 esac
 
