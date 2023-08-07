@@ -124,8 +124,7 @@ PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
     libdng_sdk.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor \
-    libstdc++.vendor \
-    Camera2
+    libstdc++.vendor 
 
 # CAS
 PRODUCT_PACKAGES += \
