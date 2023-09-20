@@ -6,6 +6,9 @@ suspend.max_sleep_time_millis=40000
 # RIL
 ro.vendor.qti.va_aosp.support=1
 
+# Logs
+persist.log.tag.OpenGLRenderer=S
+
 # Netflix
 ro.netflix.bsp_rev=Q6250-19132-1
 
