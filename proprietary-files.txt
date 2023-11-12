@@ -169,17 +169,10 @@ vendor/firmware/crnv21.bin
 vendor/firmware/apnv11.bin
 
 # Camera
-vendor/lib/camera.device@1.0-impl.so
-vendor/lib/camera.device@3.2-impl.so
-vendor/lib/camera.device@3.3-impl.so
-vendor/lib/camera.device@3.4-impl.so
-vendor/lib/camera.device@3.5-impl.so
 vendor/lib/vendor.samsung.hardware.camera.device@5.0-impl.so
 vendor/lib/vendor.samsung.hardware.camera.device@5.0.so
 vendor/lib/vendor.samsung.hardware.camera.provider@4.0-legacy.so
 vendor/lib/vendor.samsung.hardware.camera.provider@4.0.so
-vendor/lib64/camera.device@1.0-impl.so
-vendor/lib64/camera.device@3.2-impl.so
 vendor/lib/libsensorndkbridge.so
 vendor/lib64/libsensorndkbridge.so
 vendor/lib/libsuper_night_interface.so
@@ -458,6 +451,50 @@ vendor/lib64/unihal_cutils@2.1.so
 vendor/lib64/unihal_uniplugin@1.0.so
 vendor/lib64/libface_landmark.arcsoft.so
 vendor/firmware/CAMERA_ICP.elf
+
+# Camera - from PixelExperience_a52q-13.0-20231025-1435-OFFICIAL
+vendor/bin/hw/android.hardware.camera.provider@2.6-service.sm7125|93ef111f60880784334f25b543cc1462ca0439f6
+vendor/etc/init/android.hardware.camera.provider@2.6-service.sm7125.rc|b90c75a734fccead8af035c145a200293a23310a
+vendor/lib/android.hardware.camera.common@1.0.so|0fd47fd62fa3042f80f7a02f7af80f6006e690b9
+vendor/lib/android.hardware.camera.device@1.0.so|efead0ee339d6a5d8ed0d0a2a01eccedf3b352ef
+vendor/lib/android.hardware.camera.device@3.2.so|54861593bfc7252b1f879813643e8c378e01a4f3
+vendor/lib/android.hardware.camera.device@3.3.so|7d2099ee68d312596b4dc005cea8a99c00c07c15
+vendor/lib/android.hardware.camera.device@3.4.so|e1a89b1d8f4147f3d6a3e7395ef3073a25377d29
+vendor/lib/android.hardware.camera.device@3.5.so|e2981a7694e279d54fd3ab6978ef5414cc7491e7
+vendor/lib/android.hardware.camera.device@3.6.so|ae8189c7e4d0a038b7fb12980a8f45c8251ed90f
+vendor/lib/android.hardware.camera.provider@2.4-legacy.so|50229871f98d11b78e4ba2f2a4666a2f63c2cb19
+vendor/lib/android.hardware.camera.provider@2.4.so|0244db47d6ba67ec0e949531b96677b30b937f94
+vendor/lib/android.hardware.camera.provider@2.5-legacy.so|e53091e4657fb549fba6197a10b67a04a714e462
+vendor/lib/android.hardware.camera.provider@2.5.so|6b65081a52b68733a77c3abbc406f3885604d14d
+vendor/lib/android.hardware.camera.provider@2.6.so|3dce2c08d8b89dfc59421b493975a2cae754d716
+vendor/lib/android.hidl.allocator@1.0.so|32f9fa7af5cf824a1d60151175c1662bf55a5475
+vendor/lib/camera.device@1.0-impl.so|1db12390684c572bb40e63df4ed9556a0896a7fa
+vendor/lib/camera.device@3.2-impl.so|a84e229899c6b74b1e8f6f84b0861a9471885bfa
+vendor/lib/camera.device@3.3-impl.so|f257146652eb388585a4994fabe08551dea86a43
+vendor/lib/camera.device@3.4-impl.so|38db1532b224335bd66acfdc848e1116d515275d
+vendor/lib/camera.device@3.5-impl.so|070ac180c22cc9282b5228c0ce6a8d7bc4607e82
+vendor/lib/libgrallocusage.so|1cef277e6351933d1378d2d4dbc63c5b20eb5b56
+vendor/lib/vendor.qti.hardware.camera.device@1.0.so|288b543d32bebed7c98f498529ad028de6e5f4ea
+vendor/lib64/android.hardware.camera.common@1.0.so|c1f13a76078c56e72cf34e9eb76c7a706bbbd5d1
+vendor/lib64/android.hardware.camera.device@1.0.so|b7be0e7fc8942e192d1bf1b1fa283a8423dc5481
+vendor/lib64/android.hardware.camera.device@3.2.so|c55350738092e30cc0131a58b65de6183553d63b
+vendor/lib64/android.hardware.camera.device@3.3.so|02886b87264e107b6aaf0ae10a0b2807180c9404
+vendor/lib64/android.hardware.camera.device@3.4.so|b975eadf37a38244c8353a4f6f142e2ae4707bcd
+vendor/lib64/android.hardware.camera.device@3.5.so|a99f23a6fa34a391f25af7637271328acb4de709
+vendor/lib64/android.hardware.camera.device@3.6.so|00561e936ffe47379aad5f0497ea5070c6694905
+vendor/lib64/android.hardware.camera.provider@2.4-legacy.so|36e26de62a130e85162346561a1a1be771fb3d7a
+vendor/lib64/android.hardware.camera.provider@2.4.so|f99a4ad82ad3e1a1fe79e34ae9ccfe65a00ab09f
+vendor/lib64/android.hardware.camera.provider@2.5-legacy.so|b7aec5e27403dcaee9a0e6858ab68765a5bf5f11
+vendor/lib64/android.hardware.camera.provider@2.5.so|e9bb17290bba729f9707870d5c34576385e1a2af
+vendor/lib64/android.hardware.camera.provider@2.6.so|f9301df6a41986feea4a756ff194d9f4cfbe4ec4
+vendor/lib64/android.hidl.allocator@1.0.so|cf01b8588dec2d7a0284af7aaab355639c82dad5
+vendor/lib64/camera.device@1.0-impl.so|40fc3fea97b1b249b0cf9cbd092333dad559f269
+vendor/lib64/camera.device@3.2-impl.so|1e1b7d62a1ffa9aed82b9fc9e4ba30c083906d64
+vendor/lib64/camera.device@3.3-impl.so|fb81dbd1cc88ef3d44163dad90184e973fbd07e2
+vendor/lib64/camera.device@3.4-impl.so|1f99d3f7633e24b229afef8c8016f6002aa863cf
+vendor/lib64/camera.device@3.5-impl.so|6ec34441b1156a25d101768024fb092a3be21356
+vendor/lib64/libgrallocusage.so|78317e6fd684a56e26e07d78092173de5ffba09b
+vendor/lib64/vendor.qti.hardware.camera.device@1.0.so|9c3818ebce53ad57558c2982bfcafebb59c14f78
 
 # Charger
 vendor/bin/hvdcp_opti
