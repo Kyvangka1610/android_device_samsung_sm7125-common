@@ -181,6 +181,10 @@ debug.hwui.renderer=skiagl
 debug.renderengine.backend=skiaglthreaded
 renderthread.skia.reduceopstasksplitting=true
 
+# Fingerprint
+ro.vendor.fingerprint.request_touch_event=true
+ro.vendor.fingerprint.type=udfps_optical
+
 # Gatekeeper
 ro.hardware.gatekeeper=mdfpp
 
